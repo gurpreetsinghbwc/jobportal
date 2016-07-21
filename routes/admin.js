@@ -75,7 +75,7 @@ router.post('/login',
 router.get('/', function(req, res, next) {
 
 	req.logout();
-	res.render('/');
+	res.render('admin/login');
 });
 
 router.get('/index' , function(req, res, next) {
